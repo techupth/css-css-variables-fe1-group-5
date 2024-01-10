@@ -1,7 +1,43 @@
 * {
   box-sizing: border-box;
+  color:cornsilk;
   padding: 0;
   margin: 0;
 }
 
 /* Start coding here */
+:root{
+  --branding-color: #ff7f50;
+  --secondary-color: cornsilk;
+  --Highlish-color:#d2691e;
+  --Muted-Color:#a9a9a9;
+
+  --Level-1:1px;
+  --Level-2:5px;
+  --Level-3:10px;
+  --Level-4:15px;
+  --Level-5:20px;
+
+  --Padding-LV1:1px;
+  --Padding-LV2:5px;
+  --Padding-Lv3:10px;
+  --Padding-Lv4:15px;
+  --Padding-LV5:20px;
+
+  --Small-Font:12px;
+  --Medium-Font:16px;
+  --Large-Font:20px;
+  --Extra-Font:30px;
+  --Double-Extra-Font:50px;
+  --Triple-Extra-Font:100px;
+}
+
+.introduction{
+  background-color: var(--secondary-color);
+  padding: var(--Padding-LV5);
+
+}
+h1{
+  color:var(--branding-color);
+  font-size: var(--Triple-Extra-Font);
+}
